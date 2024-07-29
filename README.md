@@ -21,7 +21,7 @@ jobs:
           username: meow
 
       - name: Print Status
-        run: echo '${{ steps.simple-action.outputs.status }}'
+        run: echo '${{ steps.gitea-taskchecker.outputs.status }}'
 ```
 Next just create a pull request with a few tasks. Whenever you check or uncheck a task,the workflow will run and fail if all the tasks in PR are not checked.
 
