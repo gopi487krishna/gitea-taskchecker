@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Use Go Action  
         id: simple-action
-        uses: https://github.com/gopi487krishna/gitea-taskchecker@main
+        uses: https://github.com/gopi487krishna/gitea-taskchecker@v1
         with:
           username: meow
 
