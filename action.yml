@@ -1,0 +1,11 @@
+name : 'Gitea Task Checker'
+description : 'Checks if the tasks are checked'
+inputs:
+  username:
+    required: true
+outputs:
+  time:
+    description: 'status of check'
+runs:
+  using: 'go'
+  main: 'main.go'
